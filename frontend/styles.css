@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background-color: rosybrown;
+    padding: 30px;
+    color:bisque;
+    font-style:italic;
+    font-size:80px;
+    margin-bottom: 0;
+}
+
+.filtering {
+    display: flex;
+}
+
+.filtering > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.ingredients {
+    /* margin-top: -10px; */
+    background:antiquewhite;
+    padding: 20px;
+}
+
+.ingredients h3 {
+    font-size: 35px;
+    color: rosybrown;
+}
+
+#input-box {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#input-btn {
+    /* height: 40px;
+    width: 55px; */
+    font-size: 20px;
+    background: rosybrown;
+    color: white;
+    border-radius: 5px;
+    border: double;
+    border-width: 5px;
+    padding: 8px;
+}
+
+#clear-btn {
+    font-size: 20px;
+    background: rgb(224, 93, 93);
+    color: white;
+    border-radius: 5px;
+    border: double;
+    border-width: 5px;
+    padding: 8px;
+}
+
+.preference {
+   background: rgb(172, 123, 123); 
+   padding: 20px;
+}
+
+.preference h3 {
+    font-size: 35px;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.filtering > div h4 {
+  text-align: center;
+  font-size: 25px;
+  color:blanchedalmond;
+  border: solid antiquewhite 5px;
+  border-style: dashed;
+}
+
+input[type="checkbox"] {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  #find-recipe-btn {
+    font-size: 20px;
+    font-weight: bold;
+    background: bisque;
+    color: rosybrown;
+    border-radius: 5px;
+    border: double;
+    border-width: 5px;
+    padding: 8px;
+  }
+  .hidden {
+    display: none;
+  }
+
+  #rec-tbl {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  #ul-el {
+    font-size: 25px;
+    color: rgb(90, 14, 14);
+  }
+
+  #ul-el li {
+    display: flex;
+    align-items: center;
+  }
+
+
+#rec-tbl {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff5f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  #rec-tbl th {
+    background-color: #e1b6a5;
+    color: #3b1e1e;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #d4a59a;
+  }
+  
+  #rec-tbl td {
+    padding: 15px;
+    border: 1px solid #f0ccc0;
+    vertical-align: top;
+  }
+  
+  #rec-tbl img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  #rec-tbl a {
+    text-decoration: none;
+    color: #743f3f;
+    font-weight: bold;
+  }
+  
+  #rec-tbl a:hover {
+    text-decoration: underline;
+    color: #a05252;
+  }
+  
+  #rec-tbl tr:hover {
+    background-color: #fff0ea;
+  }
+  
+  .pagination-btn {
+    font-size: 25px;
+    padding: 8px 16px;
+    margin: 0 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e1b6a5;
+    color: #3b1e1e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination-btn:hover {
+    background-color: #d49f8e;
+  }
+  

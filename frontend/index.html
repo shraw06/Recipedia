@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipedia</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Welcome to Recipedia!</h1>
+        <div class="ingredients">
+        <h3>List the ingredients that you wish to make your dish with:</h3>
+        <input id="input-box" type="text">
+        <button id="input-btn">Use</button>
+        <ul id="ul-el"></ul>
+        <button id="clear-btn">Clear</button>
+        </div>
+        <div class="preference">
+        <h3>What kind of food or vibe are you craving?</h3>
+        
+        <div class="filtering">
+            <div>
+                <h4>Mood</h4>
+                <label><input type="checkbox" name="mood" value="Quick">Quick</label>
+                <label><input type="checkbox" name="mood" value="Light">Light</label>
+                <label><input type="checkbox" name="mood" value="Spicy">Spicy</label>
+                <label><input type="checkbox" name="mood" value="Sweet">Sweet</label>
+                <label><input type="checkbox" name="mood" value="Savory">Savory</label>
+            </div>
+            <div>
+                <h4>Category</h4>
+                <label><input type="checkbox" name="category" value="Snack"> Snack</label>
+                <label><input type="checkbox" name="category" value="Meal"> Meal</label>
+                <label><input type="checkbox" name="category" value="Dessert"> Dessert</label>
+                <label><input type="checkbox" name="category" value="Beverage"> Beverage</label>
+                <label><input type="checkbox" name="category" value="Soup"> Soup</label>
+                <label><input type="checkbox" name="category" value="Salad"> Salad</label>
+                <label><input type="checkbox" name="category" value="Vegetarian"> Vegetarian</label>
+            </div>
+        </div>
+    
+        <button id="find-recipe-btn">Find your recipe!</button>
+    </div>
+        <table id="rec-tbl"></table>
+        <div id="pagination-controls" style="text-align: center; margin-top: 20px;"></div>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
