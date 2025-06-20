@@ -137,8 +137,3 @@ with open("failed_urls.txt", "w") as f:
 
 
 
-
-#loop over all recipes
-#add in the database
-#display in website
-#style website
