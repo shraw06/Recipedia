@@ -26,8 +26,8 @@ A recipe finder that suggests dishes based on your ingredients and mood.
 ## Setup Instructions
 
 ### 1. Clone the repo
-```git clone https://github.com/shraw06/Recipedia.git
-cd Recipedia```
+- git clone https://github.com/shraw06/Recipedia.git
+- cd Recipedia
 
 ### 2. Navigate to the backend
 cd backend
