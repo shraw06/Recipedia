@@ -48,7 +48,8 @@ clearBtn.addEventListener("click", function() {
 })
 
 findRecipeBtn.addEventListener("click", async function() {
-    const response = await fetch("http://127.0.0.1:8000/recipes", {
+    // const response = await fetch("http://127.0.0.1:8000/recipes", {
+     const response = await fetch("https://recipedia-7qow.onrender.com/recipes", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
