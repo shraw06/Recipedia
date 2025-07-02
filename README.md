@@ -19,6 +19,7 @@ A recipe finder that suggests dishes based on your ingredients and mood.
 ## Deployment
 - The website has been deployed using Vercel (for frontend) and Render (for backend).
 - If the user wants to clone the repository and work on it locally on their device, they are advised to edit the index.js file (comment regarding it is provided in the file itself).
+- The deployed website is available on [https://recipedia-8ofv.vercel.app/](https://recipedia-8ofv.vercel.app/)
 
 ## Recipe Collection
 - The recipes in this project were collected by scraping [seriouseats.com](https://www.seriouseats.com) using a custom script.
