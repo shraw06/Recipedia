@@ -47,8 +47,8 @@ clearBtn.addEventListener("click", function() {
     recTbl.innerHTML = ""
 })
 
-findRecipeBtn.addEventListener("click", async function() {
-    // const response = await fetch("http://127.0.0.1:8000/recipes", {
+findRecipeBtn.addEventListener("click", async function() { 
+    // const response = await fetch("http://127.0.0.1:8000/recipes", { Uncomment this line and comment the next line if being run locally on the device
      const response = await fetch("https://recipedia-7qow.onrender.com/recipes", {
         method: "POST",
         headers: {
