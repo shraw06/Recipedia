@@ -14,7 +14,11 @@ A recipe finder that suggests dishes based on your ingredients and mood.
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python, FastAPI
 - **Database:** MongoDB (Atlas)
-- **Others:** Pymongo, dotenv, CORS
+- **Others:** Pymongo, dotenv, CORS.
+
+## Deployment
+- The website has been deployed using Vercel (for frontend) and Render (for backend).
+- If the user wants to clone the repository and work on it locally on their device, they are advised to edit the index.js file (comment regarding it is provided in the file itself).
 
 ## Recipe Collection
 - The recipes in this project were collected by scraping [seriouseats.com](https://www.seriouseats.com) using a custom script.
